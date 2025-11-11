@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  ViewKit
+
+  Created by Engin Gülek on 8.11.2025.
+  
+*/
+
+"createdBy" = "Oluşturan:";
+"firstDateAir" = "İlk Yayın Tarihi:";
+"lastDateAir" = "Son Yayın Tarihi:";
+"overview" = "Özet:";
+"firstAirDate" = "İlk Yayın Tarihi:";
+"episodes" = "Bölümler:";
+"cast" = "Oyuncular:";
+"season" = "Sezon:";
+"tvShowCount" = "Dizi Sayısı:";
+"somethingWentWrong" = "Bir şeyler yanlış gitti";
+"popular" = "Popüler";
+"airingToday" = "Bugün Yayınlananlar";
+"allList" = "Tüm Liste";

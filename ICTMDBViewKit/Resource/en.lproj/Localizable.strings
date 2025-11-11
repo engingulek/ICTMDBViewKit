@@ -1,0 +1,20 @@
+/*
+ Localizable.strings
+ ViewKit
+ 
+ Created by Engin Gülek on 8.11.2025.
+ 
+ */
+
+"createdBy" = "Created by: ";
+"firstDateAir" = "First Date Air: ";
+"lastDateAir" = "Last Date Air: ";
+"overview" = "Overview: ";
+"episodes" = "Episodes: ";
+"cast" = "Cast ";
+"season" = "Season ";
+"tvShowCount" = "Tv Show Count ";
+"somethingWentWrong" = "Something went wrong";
+"popular" = "Popular";
+"airingToday" = "Airing Today";
+"allList" = "All List";
