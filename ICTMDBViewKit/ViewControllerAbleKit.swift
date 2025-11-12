@@ -38,13 +38,13 @@ extension SegueAble  where Self : UIViewController{
 
 //MARK: - NavConUIAble
 /// Setting navigation controller contents
-protocol NavConUIAble {
+public protocol NavConUIAble {
     /// Set navigation title
     func setNavigationTitle(title:String)
 }
 
 extension NavConUIAble where Self : UIViewController  {
-    func setNavigationTitle(title:String) {
+   public func setNavigationTitle(title:String) {
         navigationItem.title = title
     }
 }
