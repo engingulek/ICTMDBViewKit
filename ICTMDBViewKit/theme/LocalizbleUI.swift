@@ -22,6 +22,6 @@ public enum LocalizableUI: String {
     case airingToday
     @MainActor
     public var localized: String {
-        NSLocalizedString(self.rawValue, bundle: .kitModule, comment: "\(self.rawValue) text")
+        NSLocalizedString(self.rawValue, bundle: .module, comment: "\(self.rawValue) text")
     }
 }
