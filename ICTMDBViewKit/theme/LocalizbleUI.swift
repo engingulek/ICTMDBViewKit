@@ -8,6 +8,7 @@
 import Foundation
 
 public enum LocalizableUI: String {
+    case homePageNavTitle
     case createdBy
     case firstDateAir
     case lastDateAir
