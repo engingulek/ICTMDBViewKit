@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ICTMDBViewKit",
     defaultLocalization: "en",
-    platforms: [.iOS(.v18)],
+    platforms: [.iOS(.v26)],
     products: [.library(name: "ICTMDBViewKit", type: .dynamic, targets: ["ICTMDBViewKit"])],
     dependencies: [
          

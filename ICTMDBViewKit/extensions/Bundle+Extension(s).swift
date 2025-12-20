@@ -9,6 +9,6 @@ import Foundation
 
 extension Bundle {
     
-    @MainActor public static var framework: Bundle? = Bundle(identifier: "engingulek.ICTVShowsViewKit")
+ public static let framework: Bundle? = Bundle(identifier: "engingulek.ICTVShowsViewKit")
 }
 
