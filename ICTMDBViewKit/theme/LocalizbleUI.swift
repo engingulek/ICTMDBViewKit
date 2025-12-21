@@ -20,6 +20,8 @@ public enum LocalizableUI: String {
     case somethingWentWrong
     case popular
     case airingToday
+    case homePageNavTitle
+    case detailNavTitle
 
     public var localized: String {
         NSLocalizedString(self.rawValue, bundle: .module, comment: "\(self.rawValue) text")
