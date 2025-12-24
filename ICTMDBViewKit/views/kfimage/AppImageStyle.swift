@@ -27,7 +27,7 @@ struct AppImageTypeStyleModifier: ViewModifier {
                     .overlay(Color.black.opacity(0.2))
             } else {
                 content
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(contentMode: .fill)
                     .cornerRadius(8)
             }
             
