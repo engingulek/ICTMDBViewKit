@@ -25,10 +25,12 @@ struct AppImageTypeStyleModifier: ViewModifier {
                     .layoutPriority(-1)
                     .blur(radius: 10)
                     .overlay(Color.black.opacity(0.2))
+                    .clipped()
             } else {
                 content
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(8)
+                    .clipped()
             }
             
         case .icon(let iconStyle):
