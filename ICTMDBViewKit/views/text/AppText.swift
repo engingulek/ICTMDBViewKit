@@ -24,7 +24,7 @@ public enum AppTextStyle {
 
 
 public struct AppText: View {
-    init(text: String, style: AppTextStyle, color: Color? = nil) {
+   public init(text: String, style: AppTextStyle, color: Color? = nil) {
         self.text = text
         self.style = style
         self.color = color
