@@ -28,7 +28,7 @@ struct AppImageTypeStyleModifier: ViewModifier {
                     .clipped()
             } else {
                 content
-                    .aspectRatio(contentMode: .fit)
+                    .aspectRatio(contentMode: .fill)
                     .cornerRadius(8)
                     .clipped()
             }
