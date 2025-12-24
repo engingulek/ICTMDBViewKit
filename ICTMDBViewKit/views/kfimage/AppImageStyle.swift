@@ -8,7 +8,7 @@ import Foundation
 import SwiftUI
 
 // Modifier'ın anlayacağı ortak dil
-enum InternalImageType {
+public enum InternalImageType {
     case image(AppImageType)
     case icon(AppIconType)
 }

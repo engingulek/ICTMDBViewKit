@@ -9,24 +9,24 @@ import Kingfisher
 import SwiftUI
 
 // 1. Remote ve System için ayrı tip kısıtlamaları yapıyoruz
-enum AppImageType {
+public enum AppImageType {
     case backgroundBlur
     case main
 }
 
-enum AppIconType {
+public enum AppIconType {
     case icon(size: CGSize, color: Color)
 }
 
 
-enum ImageSource {
+public enum ImageSource {
     case remote(url: String?, type: AppImageType)
     case system(name: String, type: AppIconType)
 }
 
-struct AppImage: View {
+public struct AppImage: View {
     let source: ImageSource
-    var body: some View {
+    public var body: some View {
         Group {
             switch source {
             case .remote(let urlString, let type):
