@@ -7,25 +7,34 @@
 
 import SwiftUI
 
-struct AppText: View {
-    enum Style {
-        case heroTitle
-        case sectionHeader
-        case cardTitle
-        case cardSubTitle
-        case body
-        case caption
-        case detailInfo
-        case castName
-        case castCharacter
-        case error
+
+public enum AppTextStyle {
+    case heroTitle
+    case sectionHeader
+    case cardTitle
+    case cardSubTitle
+    case body
+    case caption
+    case detailInfo
+    case castName
+    case castCharacter
+    case error
+}
+
+
+
+public struct AppText: View {
+    init(text: String, style: AppTextStyle, color: Color? = nil) {
+        self.text = text
+        self.style = style
+        self.color = color
     }
     
     let text: String
-    let style: Style
+    let style: AppTextStyle
     var color: Color? = nil
     
-    var body: some View {
+   public var body: some View {
         content
             .foregroundColor(color ?? defaultColor)
     }
