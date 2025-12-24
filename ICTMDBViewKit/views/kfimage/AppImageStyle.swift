@@ -15,7 +15,7 @@ public enum InternalImageType {
 
 struct AppImageTypeStyleModifier: ViewModifier {
     let type: InternalImageType
-    
+
     func body(content: Content) -> some View {
         switch type {
         case .image(let style):

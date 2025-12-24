@@ -26,6 +26,9 @@ public enum ImageSource {
 
 public struct AppImage: View {
     let source: ImageSource
+    public init(source: ImageSource) {
+        self.source = source
+    }
     public var body: some View {
         Group {
             switch source {
