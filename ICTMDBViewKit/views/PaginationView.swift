@@ -12,7 +12,7 @@ public struct PaginationView: View {
     let prevAction: () -> Void
     let nextAction: () -> Void
     
-    init(currentPage: Int,
+    public init(currentPage: Int,
          totalPages: Int,
          prevAction: @escaping () -> Void,
          nextAction: @escaping () -> Void) {
