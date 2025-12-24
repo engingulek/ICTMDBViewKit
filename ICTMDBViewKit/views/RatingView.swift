@@ -42,6 +42,10 @@ public struct RatingView: View {
     let score: Double
     let type: RatingViewType
     
+   public  init(score: Double, type: RatingViewType) {
+        self.score = score
+        self.type = type
+    }
     private var scoreColor: Color {
         switch score {
         case 0.0..<6.0: return .red
